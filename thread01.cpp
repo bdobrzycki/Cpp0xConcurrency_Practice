@@ -1,6 +1,6 @@
-// Compilation using GCC compiler under Linux.
-// g++ -std=c++0x program.cpp -pthread -o program.out
-// ./program.out
+// Compiled using GCC compiler (4.8.1) under Linux.
+// g++ -std=c++0x thread01.cpp -pthread -o a.out
+// Run: ./a.out
 
 #include <iostream>
 #include <thread>
