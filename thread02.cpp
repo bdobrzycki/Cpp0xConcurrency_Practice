@@ -8,7 +8,7 @@
 int main (int argc, char **argv)
 {
   // Lambda - (from lambda calculus): define a function on the spot
-  // (inline anonymous function [] - read this symbol as Greek letter lambda)
+  // (inline anonymous function [] - read this symbol as a Greek letter lambda)
 
   // Fork-join parallelism
   std::thread th([]()
@@ -18,7 +18,7 @@ int main (int argc, char **argv)
 
   std::cout << "Hello World!\n";
 
-  th.join(); // Join worker thread to main thread. 
+  th.join(); // Join the worker thread to the main thread. 
 
   return 0;
 }
