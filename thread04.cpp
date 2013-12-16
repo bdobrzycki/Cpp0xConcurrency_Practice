@@ -14,7 +14,7 @@ int main (int argc, char **argv)
     // Start ten threads.  
     for (int i = 0; i < 10; ++i)
     {   
-        // A clousure is a lambda function that captures external values.
+        // A closure is a lambda function that captures external values.
         workers.push_back(std::thread([i]() // Lambda captures variable i by value
                                             // i.e. copy and store i as a private data member
                                             // inside a function object (lambda de facto is).
