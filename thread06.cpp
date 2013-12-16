@@ -40,7 +40,7 @@ int main (int argc, char **argv)
     std::cout << "Hi from main!\n";
 
     // Barrier i.e. joining all the threads to the main thread. 
-    std::for_each(workers.begin(), workers.end(), [](std::thread& th) // Lambda taking a parameter (the element stored by the vector).
+    std::for_each(workers.begin(), workers.end(), [](std::thread& th) // Lambda is taking a parameter (the element stored by the vector).
     { 
         assert(th.joinable());
         th.join();
